@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
-import Content from './pages/PageContent';
+import PageContent from './pages/PageContent';
 
 
 function App() {
@@ -12,11 +12,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
-          <Route path="blogs" element={<Content content="Blogs"/>}/>
+          <Route path="blogs" element={<PageContent contentPath="Buying_New.md"/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
+//import the rehype class names to allow for styling of created nodes
 
 export default App;

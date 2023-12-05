@@ -10,4 +10,4 @@ pretty slick
 1. Numbered list this time
 2. is it working?
 
-[Buying_New.md](Buying_New)
+[Buying_New.md](/blogs)
