@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Home from './pages/Home';
-import PageContent from './pages/PageContent';
+import PageContent from './components/PageContent';
 
 
 function App() {
@@ -12,7 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout/>}>
           <Route index element={<Home/>}/>
-          <Route path="blogs" element={<PageContent contentPath="Buying_New.md"/>}/>
+          <Route path="buying" element={<PageContent contentPath="Buying_New.md"/>}/>
+          <Route path="ready" element={<PageContent contentPath="Buying_New.md"/>}/>
+          <Route path="care" element={<PageContent contentPath="Buying_New.md"/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -9,11 +9,11 @@ export default function PageContent({contentPath}){
       fetch(contentPath)
         .then((res) => res.text())
         .then((text) => setContent(text));
-    }, []);
+    }, [contentPath]);
 
     return (
         <div>
-        <Markdown children={content}/>
+            <Markdown children={content}/>
         </div>
     )
 }
