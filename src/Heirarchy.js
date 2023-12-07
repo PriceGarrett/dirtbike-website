@@ -54,7 +54,7 @@ const readySubMenu = [
     contentPath: "practice.md",
   },
   {
-    route: "terrain",
+    route: "terrain-tips",
     label: "Tips for Your Terrain",
     contentPath: "tips_for_terrain.md",
   },
@@ -66,7 +66,7 @@ const readySubMenu = [
 ];
 const careSubMenu = [
   {
-    route: "maintenence",
+    route: "maintenance",
     label: "Routine Maintenance",
     contentPath: "maintenance.md",
   },

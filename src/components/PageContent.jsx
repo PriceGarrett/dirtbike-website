@@ -1,5 +1,6 @@
 import Markdown from "react-markdown";
 import { useState, useEffect } from "react";
+import rehypeRaw from "rehype-raw";
 
 export default function PageContent({contentPath}){
 
@@ -13,7 +14,7 @@ export default function PageContent({contentPath}){
 
     return (
         <div>
-            <Markdown children={content}/>
+            <Markdown rehypePlugins={[rehypeRaw]} children={content}/>
         </div>
     )
 }
