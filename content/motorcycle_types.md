@@ -4,7 +4,7 @@ While all motorcycles share some key similarities, each type has strengths, weak
 
 ## Cruisers 
 
-<img src="../img/harley-deluxe.jpg" width="300"/>
+<img src="img/harley-deluxe.jpg" width="300"/>
 
 Pictured: Harley-Davidson 2020 Deluxe, MSRP $18,399 USD
 
@@ -16,7 +16,7 @@ Cons: Weight, power:weight ratio, costs (some models).
 
 ## Sportbikes
 
-<img src="../img/honda-cbr650f.jpg" width="300"/>
+<img src="img/honda-cbr650f.jpg" width="300"/>
 
 
 Pictured: Honda CBR650F, MSRP $8,749 USD
@@ -29,7 +29,7 @@ Cons: Comfort (aggressive body positioning), steep rake angle.
 
 ## Standard & Naked 
 
-<img src="../img/Yamaha-MT-09.jpg" width="300"/>
+<img src="img/Yamaha-MT-09.jpg" width="300"/>
 
 Pictured: Yamaha MT-09, MSRP $9,399
 
@@ -41,7 +41,7 @@ Cons: Lack of fairings, little to no windshield, minimal luggage options.
 
 ## Adventure (ADV) 
 
-<img src="../img/bmw-r-1250.jpg" width="300"/>
+<img src="img/bmw-r-1250.jpg" width="300"/>
 
 
 Pictured: BMW R 1250 GS Adventure, MSRP $20,345 USD
@@ -54,7 +54,7 @@ Cons: Possibly heavy, limited off-road capabilities.
 
 ## Dual Sports & Enduros
 
-<img src="../img/DR-Z400S.png" width="300"/>
+<img src="img/DR-Z400S.png" width="300"/>
 
 Pictured: Suzuki DR-Z400S, MSRP $6,799 USD
 
@@ -66,7 +66,7 @@ Cons: Tall seat height, low/no windshield, possible small gas tank (dependent on
 
 ## Dirtbikes
 
-<img src="../img/ktm-xc-w.jpg" width="300"/>
+<img src="img/ktm-xc-w.jpg" width="300"/>
 
 Pictured: 2021 KTM XC-W 300, MSRP $10,199 USD
 
@@ -78,7 +78,7 @@ Cons: Limited to offroad riding, tall seat heights (some models), kickstarts (so
 
 ## Choppers
 
-<img src="../img/honda-fury.jpg" width="300"/>
+<img src="img/honda-fury.jpg" width="300"/>
 
 
 Pictured: 2020 Honda Fury, MSRP $10,599 USD
@@ -91,7 +91,7 @@ Cons: Fork rake, difficult handling, rear suspension limitations.
 
 ## Touring
 
-<img src="../img/Honda-Goldwing.webp" width="300"/>
+<img src="img/Honda-Goldwing.webp" width="300"/>
 
 Pictured: Honda Goldwing, MSRP $23,000+ USD
 
@@ -103,7 +103,7 @@ Cons: Weight, bulk, possibly overwhelming for new riders, cost (some models).
 
 ## Sport Touring
 
-<img src="../img/kawasaki-concours.jpg" width="300"/>
+<img src="img/kawasaki-concours.jpg" width="300"/>
 
 Pictured: Kawasaki Concourse14 ABS, MSRP $15,799 USD
 
@@ -115,7 +115,7 @@ Cons: Taller seat height, weight, bulk, more aggressive body positioning.
 
 ## Vintage & Customs
 
-<img src="../img/honda-cbf.jpg" width="300"/>
+<img src="img/honda-cbf.jpg" width="300"/>
 
 Pictured: 1982 Honda CB 750F, $7,000 USD
 
@@ -127,7 +127,7 @@ Cons: May need repairs/updates, customization could cause safety and handling co
 
 ## Modern Classics
 
-<img src="../img/bonneville-t100.avif" width="300"/>
+<img src="img/bonneville-t100.avif" width="300"/>
 
 
 Pictured: Bonneville T100, MSRP $10,450
@@ -140,7 +140,7 @@ Cons: Low power, limited suspension (some models), limited power (some models).
 
 ## Commuters & Minis
 
-<img src="../img/honda-monkey.jpg" width="300"/>
+<img src="img/honda-monkey.jpg" width="300"/>
 
 
 Pictured: 2019 Honda Monkey, MSPR $3,999 USD
