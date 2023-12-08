@@ -6,6 +6,7 @@ import {
   Route,
   createBrowserRouter,
   RouterProvider,
+  createHashRouter,
 } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
@@ -28,7 +29,7 @@ function flattenHeirarchy(structure) {
   return pages;
 }
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
   element: <Layout/>,
   children: flattenHeirarchy(Heirarchy),
 }
