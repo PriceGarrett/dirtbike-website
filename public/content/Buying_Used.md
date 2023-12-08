@@ -14,7 +14,7 @@ Especially on an older bike, tell the seller to leave the bike cold before you g
 
 Their age should be commensurate with the bike. If they are damaged, the bike has been down. Look for rash, obviously, but levers can give away a few clues. Levers often “curl” when they hit the pavement. They might not be broken, and the seller might have buffed out the rash, but a curved appearance usually indicates damage. The same usually goes for “shorty” levers that a seller has cut and re-shaped. Most people don’t do this unless they need to replace a banged-up lever. Aftermarket lever and pegs are also a bit of a tip-off that a crash has occurred. If the seller cops to it, he may be an honest fellow who had a tipover and did his best to fix the bike. If it goes unmentioned, though, it could mean the seller is dishonest, or perhaps the bike suffered at the hands of a previous owner.
 
-<img src="../img/bent-lever.jpg" alt="Bent lever" width=300/>
+<img src="img/bent-lever.jpg" alt="Bent lever" width=300/>
 
 
 ## 4. Assess the bike’s general condition

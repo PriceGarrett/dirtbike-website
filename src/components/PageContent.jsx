@@ -13,7 +13,7 @@ export default function PageContent({contentPath}){
     }, [contentPath]);
 
     return (
-        <div>
+        <div className="content-body">
             <Markdown rehypePlugins={[rehypeRaw]} children={content}/>
         </div>
     )

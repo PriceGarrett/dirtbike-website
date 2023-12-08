@@ -40,25 +40,6 @@ const router = createHashRouter([{
 function App() {
   console.log(router);
   return (
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" element={<Layout />}>
-    //       <Route index element={<Home />} />
-    //       <Route
-    //         path="buying"
-    //         element={<PageContent contentPath="Buying_New.md" />}
-    //       />
-    //       <Route
-    //         path="ready"
-    //         element={<PageContent contentPath="Buying_New.md" />}
-    //       />
-    //       <Route
-    //         path="care"
-    //         element={<PageContent contentPath="Buying_New.md" />}
-    //       />
-    //     </Route>
-    //   </Routes>
-    // </BrowserRouter>
     <RouterProvider router={router} />
   );
 }
