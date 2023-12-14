@@ -7,6 +7,11 @@ import Terrain from "./pages/Terrain";
 import EngineSize from "./pages/EngineSize";
 import BuyingNew from "./pages/BuyingNew";
 import BuyingUsed from "./pages/BuyingUsed";
+import Protection from "./pages/Protection";
+import Practice from "./pages/Practice";
+import Paperwork from "./pages/Paperwork";
+import Maintanence from "./pages/Maintanence";
+import Repairs from "./pages/Repairs";
 
 const buyingSubMenu = [
   {
@@ -56,30 +61,30 @@ const readySubMenu = [
   {
     route: "protection",
     label: "Protective Gear",
-    contentPath: "protection.md",
+    component: <Protection/>
   },
   {
     route: "practice",
     label: "Practice and Training",
-    contentPath: "practice.md",
+    component: <Practice/>
   },
 
   {
     route: "paperwork",
     label: "License and Registration",
-    contentPath: "paperwork.md",
+    component: <Paperwork/>
   },
 ];
 const careSubMenu = [
   {
     route: "maintenance",
     label: "Routine Maintenance",
-    contentPath: "maintenance.md",
+    component: <Maintanence/>
   },
   {
     route: "repairs",
     label: "Common Repairs",
-    contentPath: "repairs.md",
+    component: <Repairs/>
   },
 ];
 
