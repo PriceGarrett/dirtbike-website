@@ -1,8 +1,15 @@
+import PageContent from "./components/PageContent";
+import Home from "./pages/Home";
+import MotorcycleTypes from "./pages/MotorcycleTypes";
+import PopularModels from "./pages/PopularModels";
+import SafetyConcerns from "./pages/SafetyConcerns";
+import Terrain from "./pages/Terrain";
+
 const buyingSubMenu = [
   {
     route: "safety",
     label: "Safety Concerns",
-    contentPath: "safety_concerns.md"
+    component: <SafetyConcerns/>
   },
   {
     route: "style",
@@ -12,12 +19,12 @@ const buyingSubMenu = [
       {
         route: "types",
         label: "Different Types of Motorcycles",
-        contentPath: "motorcycle_types.md",
+        component: <MotorcycleTypes/>
       },
       {
         route: "terrain",
         label: "Where Do You Want to Ride?",
-        contentPath: "terrain.md",
+        component: <Terrain/>
       },
       {
         route: "engine",
@@ -27,7 +34,7 @@ const buyingSubMenu = [
       {
         route: "popular",
         label: "Popular Makes and Models",
-        contentPath: "popular.md",
+        component: <PopularModels/>,
       },
     ],
   },
@@ -53,11 +60,7 @@ const readySubMenu = [
     label: "Practice and Training",
     contentPath: "practice.md",
   },
-  {
-    route: "terrain-tips",
-    label: "Tips for Your Terrain",
-    contentPath: "tips_for_terrain.md",
-  },
+
   {
     route: "paperwork",
     label: "License and Registration",
@@ -81,7 +84,7 @@ export const Heirarchy = [
   {
     route: "/",
     label: "Home",
-    contentPath: "home.md",
+    component: <Home/>,
   },
   {
     route: "buying",

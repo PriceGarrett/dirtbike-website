@@ -13,7 +13,7 @@ body {
 header {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.07), 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   color: #212529;
-  background-color: rgb(233, 161, 27);
+  background-color: #f38028;
 }
 
 .logo {
@@ -31,26 +31,194 @@ header {
 
   display: flex;
   flex-direction: column;
-  margin: 0px 200px 30px;
+  margin: 0px 300px 30px;
   max-width: 1400px;
   padding: 30px;
 }
 
-h1, h2, h3{
+.page-title {
+  font-size: 60px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.page-description {
+  padding: 20px 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 20px; /* Spacing between items */
+}
+
+/* Style for the motorcycle item */
+.motorcycle-card {
+  background-color: #f2f2f2; /* Grey background color */
+  border-radius: 10px; /* Rounded edges */
+  overflow: hidden; /* Prevents text overflow issues */
+  display: flex;
+  flex-direction: row;
+  min-height: 300px;
+  max-height: fit-content;
+}
+
+.motorcycle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style for the motorcycle details (header and price) */
+.motorcycle-details {
+  padding: 20px; /* Padding for the details section */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px #f38028 solid;
+  background-color: #d8d7d7;
+  margin: -10px;
+}
+
+/* Style for the motorcycle content (photo and description) */
+.motorcycle-description {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the motorcycle item image */
+.motorcycle-item-img {
+  min-width: 40%; /* Image takes up 40% of the card width */
+  max-width: 40%;
+  border-radius: 10px; /* Rounded right edge */
+  z-index: 1;
+}
+
+/* Style for the motorcycle description */
+.motorcycle-description {
+  flex-grow: 1; /* Allows the description to take remaining horizontal space */
+  padding: 20px; /* Padding for the description section */
+}
+
+.pro-con-list {
+  border-top: 2px #f38028 solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #d8d7d7;
+  align-content: top;
+  border-radius: 10px;
+  margin: -10px;
+  padding-bottom: 20px;
+}
+
+.pros {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cons {
+}
+
+.sources-container {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.sources-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sources-container ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #d16a1a;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.motorcycle-card h1,
+.motorcycle-card h2,
+.motorcycle-card h3 {
   margin: 10px;
 }
 
-h4 {
-  margin-top: 50px;
+.information-container .subsection-header {
+  margin: 10px 0px;
+  border-bottom: 2px #f38028 solid;
 }
 
-p {
-  margin: 0px 40px 5px;
+.information-container .columns {
+  display: flex;
+  flex-direction: row;
 }
 
-img {
-  align-self: center;
+.information-container .text-column,
+.information-container .extra-column {
+  display: flex;
+  flex-direction: column;
 }
+
+.information-container .text-column {
+  min-width: 66%;
+}
+
+.information-container .extra-column {
+  max-width: 33%;
+}
+
+.information-container p {
+  margin: 7px 0px;
+}
+
+.sub-card {
+  justify-items: center;
+  padding: 15px 0px;
+  min-width: 200px;
+  height: 100%;
+  margin: 5px 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  border: 2px #d8d7d7 solid;
+}
+
+.sub-card h3 {
+  border-bottom: 2px #f38028 solid;
+  width: 196px;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.sub-card ul {
+  margin: 10px 30px;
+}
+
+.sub-card li {
+  margin: 5px;
+}
+
+.sub-card a {
+  color: #f38028;
+}
+
+
 
 .nav-area {
   display: flex;
@@ -104,7 +272,7 @@ img {
 .desktop-nav .menu-items button:hover {
   border-radius: 10px;
 
-  background-color: rgb(219, 148, 16);
+  background-color: #dd6a11;
 }
 
 .desktop-nav .arrow::after {
@@ -142,5 +310,3 @@ img {
   left: 100%;
   top: -7px;
 }
-
-

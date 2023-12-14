@@ -22,7 +22,7 @@ function flattenHeirarchy(structure) {
     }
     pages.push({
       path: element.route,
-      element: <PageContent contentPath={"content/" + element.contentPath} />,
+      element: element.component,
     });
   });
 
