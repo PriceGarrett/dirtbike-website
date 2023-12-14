@@ -4,6 +4,9 @@ import MotorcycleTypes from "./pages/MotorcycleTypes";
 import PopularModels from "./pages/PopularModels";
 import SafetyConcerns from "./pages/SafetyConcerns";
 import Terrain from "./pages/Terrain";
+import EngineSize from "./pages/EngineSize";
+import BuyingNew from "./pages/BuyingNew";
+import BuyingUsed from "./pages/BuyingUsed";
 
 const buyingSubMenu = [
   {
@@ -29,7 +32,7 @@ const buyingSubMenu = [
       {
         route: "engine",
         label: "What Size Engine Do You Need?",
-        contentPath: "engine.md",
+        component: <EngineSize/>
       },
       {
         route: "popular",
@@ -41,12 +44,12 @@ const buyingSubMenu = [
   {
     route: "new",
     label: "Buying New",
-    contentPath: "Buying_New.md",
+    component: <BuyingNew/>
   },
   {
     route: "used",
     label: "Buying Used",
-    contentPath: "Buying_Used.md",
+    component: <BuyingUsed/>
   },
 ];
 const readySubMenu = [

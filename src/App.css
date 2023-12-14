@@ -124,6 +124,25 @@ header {
 .cons {
 }
 
+ol {
+  padding: 0px 30px;
+}
+
+.image-card {
+  justify-items: center;
+  padding: 15px 0px;
+  min-width: 200px;
+  height: 100%;
+  margin: 5px 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  border: 2px #d8d7d7 solid;
+}
+
+.image-card .image-card-content {
+  max-width: 100%;
+}
+
 .sources-container {
   position: relative;
   bottom: 0;
@@ -192,7 +211,8 @@ a:hover {
   justify-items: center;
   padding: 15px 0px;
   min-width: 200px;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   margin: 5px 10px;
   background-color: #f2f2f2;
   border-radius: 10px;
@@ -201,7 +221,7 @@ a:hover {
 
 .sub-card h3 {
   border-bottom: 2px #f38028 solid;
-  width: 196px;
+  width: 100% - 4px;
   text-align: center;
   padding-bottom: 3px;
 }
