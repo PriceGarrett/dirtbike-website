@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/dirtbike-website/static/css/main.8982f584.css",
-    "main.js": "/dirtbike-website/static/js/main.f968e5a5.js",
+    "main.css": "/dirtbike-website/static/css/main.2e14dc4c.css",
+    "main.js": "/dirtbike-website/static/js/main.fc0025c4.js",
     "static/js/787.507d2c36.chunk.js": "/dirtbike-website/static/js/787.507d2c36.chunk.js",
+    "static/media/mini.jpg": "/dirtbike-website/static/media/mini.6751c00656457afb3e9f.jpg",
+    "static/media/DR-Z400S.png": "/dirtbike-website/static/media/DR-Z400S.516c3a13c16c08961faa.png",
+    "static/media/dventure.jpg": "/dirtbike-website/static/media/dventure.4426f501a36ff393b270.jpg",
+    "static/media/dirtbike.webp": "/dirtbike-website/static/media/dirtbike.3f887100ddb16eb60509.webp",
+    "static/media/dualsport.jpg": "/dirtbike-website/static/media/dualsport.56f6dddb965fb5633ec7.jpg",
+    "static/media/CB500X-BR-5.jpg": "/dirtbike-website/static/media/CB500X-BR-5.e33abba8fe5ea0cbf720.jpg",
+    "static/media/kawasaki-z400.jpg": "/dirtbike-website/static/media/kawasaki-z400.291e24dae6819b3b4717.jpg",
+    "static/media/yamaha-v-star.jpg": "/dirtbike-website/static/media/yamaha-v-star.c0746dc39637c3d73839.jpg",
+    "static/media/bolt.jpg": "/dirtbike-website/static/media/bolt.5c21c076277aec8e53cd.jpg",
+    "static/media/2016-kawasaki-z125-pro-review-10-quick-facts-1.jpg": "/dirtbike-website/static/media/2016-kawasaki-z125-pro-review-10-quick-facts-1.7ec03c6d57b277ad3903.jpg",
+    "static/media/crf-250-x.webp": "/dirtbike-website/static/media/crf-250-x.ab6be51d871e58786590.webp",
+    "static/media/suzuki-gsk.avif": "/dirtbike-website/static/media/suzuki-gsk.077d71e36a491b9f62e1.avif",
+    "static/media/sport.jpg": "/dirtbike-website/static/media/sport.6ffced399dacc0bf517a.jpg",
     "static/media/logo.svg": "/dirtbike-website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/dirtbike-website/index.html",
-    "main.8982f584.css.map": "/dirtbike-website/static/css/main.8982f584.css.map",
-    "main.f968e5a5.js.map": "/dirtbike-website/static/js/main.f968e5a5.js.map",
+    "main.2e14dc4c.css.map": "/dirtbike-website/static/css/main.2e14dc4c.css.map",
+    "main.fc0025c4.js.map": "/dirtbike-website/static/js/main.fc0025c4.js.map",
     "787.507d2c36.chunk.js.map": "/dirtbike-website/static/js/787.507d2c36.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8982f584.css",
-    "static/js/main.f968e5a5.js"
+    "static/css/main.2e14dc4c.css",
+    "static/js/main.fc0025c4.js"
   ]
 }
