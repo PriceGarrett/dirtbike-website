@@ -14,7 +14,7 @@ const Terrain = () => {
         known to man, but it can help you get started.
       </p>
 
-      <InformationCard sectionName="Short Distances" extras={<SubCard title="Related Links" content={[<Link to={"types"}>Types of Motorcycles</Link>, <Link to={"popular"}>Best Beginner Motorcycles</Link>]}/>}>
+      <InformationCard sectionName="Short Distances" extras={<SubCard title="Related Links" content={[<Link to={"/types"}>Types of Motorcycles</Link>, <Link to={"/popular"}>Best Beginner Motorcycles</Link>]}/>}>
         <p>
           If you plan on only riding in your city limits and not every taking
           freeways, a <strong>Mini</strong> bike would be a great fit. Mini
@@ -82,7 +82,6 @@ const Terrain = () => {
         </p>
       </InformationCard>
 
-      {/* ... (rest of the content) ... */}
 
 
     </div>
